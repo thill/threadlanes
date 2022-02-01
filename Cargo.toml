@@ -1,0 +1,10 @@
+[package]
+name = "threadlanes"
+version = "0.1.0"
+repository = "https://github.com/thill/threadlanes/"
+authors = ["Eric Thill <thill@users.noreply.github.com>"]
+description = "Real-time executors with deterministic task routing and guaranteed ordering"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+countdown_latch = "0.1.1"
